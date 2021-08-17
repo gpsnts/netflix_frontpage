@@ -1,0 +1,21 @@
+header {
+	display: flex;
+	flex-flow: row wrap;
+	padding: 30px 50px;
+	box-shadow: 0 1.125px 3.5px -3.5px black;
+	height: 100px;
+}
+
+/* MediaQueries "forkadas" do Bootstrap */
+/* Mobile (xsm)*/
+@media (max-width: 575.98px) {}
+/* Mobile (sm) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+/* Tablet (md) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+/* Desktop (lg) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+/* Desktop (maior) (xl) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+/* Desktop (xxl) */
+@media (min-width: 1400px) {}

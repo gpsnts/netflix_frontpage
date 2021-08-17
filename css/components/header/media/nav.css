@@ -1,0 +1,26 @@
+@media (max-width: 575.98px) {
+	.main-tabs {
+		display: none;
+	}
+	
+	.account-menu {
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.main-tabs > .header-filler {
+		padding: 0 5px;
+	}
+
+	.main-tabs > a, .account-menu-options > a {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.main-tabs > a, .account-menu-options > a {
+		font-size: 18px;
+	}
+}
