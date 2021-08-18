@@ -5,19 +5,19 @@
 @import url("./components/header/index.css");
 @import url("./components/section/index.css");
 
+* {
+	box-sizing: border-box;
+}
+
 html, body, .app-container {
 	height: 100%;
 	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
 	line-height: 1.4;
 }
 
 body {
-	font-family: "Bebas Neue", display;
 	background-color: var(--primary);
-}
-
-* {
-	box-sizing: border-box;
 }
 
 /* MediaQueries "forkadas" do Bootstrap */
