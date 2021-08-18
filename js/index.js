@@ -3,6 +3,6 @@ import { getTrendingMoviesWeek, getMovieById, getNowPlayingMovies } from "./requ
 
 // getMovieById(500);
 // getTrendingMoviesWeek();
-// getNowPlayingMovies(".first");
+getNowPlayingMovies(".first");
 // getNowPlayingMovies(".second", 2);
 // getNowPlayingMovies(".third", 3);
