@@ -1,7 +1,10 @@
 @media (max-width: 575.98px) {
 	header {
-		height: 95px;
-		padding: 25px; 
+		flex-flow: column nowrap;
+		height: 250px;
+		padding: 15px; 
+		justify-content: space-between;
+    align-items: center;
 	}
 }
 

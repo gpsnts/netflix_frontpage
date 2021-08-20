@@ -1,11 +1,24 @@
 @media (max-width: 575.98px) {
+	.main {
+		width: 100%;
+	}
+
 	.main-tabs {
-		display: none;
+		width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
 	}
 	
 	.account-menu {
+		margin-top: 5px;
+		width: 100%;
 		justify-content: center;
 		align-items: center;
+	}
+
+	.account-menu-options {
+		justify-content: center;
 	}
 }
 
@@ -20,6 +33,14 @@
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+	.main {
+		width: 55%;
+	}
+
+	.account-menu {
+		width: 25%;
+	}
+
 	.main-tabs > a, .account-menu-options > a {
 		font-size: 18px;
 	}

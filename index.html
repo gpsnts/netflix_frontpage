@@ -7,7 +7,8 @@
 	<link rel="icon" type="image/x-icon" href="./misc/img/netflix_favicon.ico"/>
 	<link rel="stylesheet" href="./css/reset.css">
 	<link rel="stylesheet" href="./css/index.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.0-alpha.36/swiper-bundle.min.css" integrity="sha512-o/jaqYxfykZOAZtAXBnuofiixRW/r1jTV0L4CE/vHtF1cnSMFvBFqPjLZW4ilq9xbJtfH1NbJU5b6z6QQXZIeQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.0-alpha.36/swiper-bundle.min.js" integrity="sha512-UWx93E4XltEi9tFFTxOPqzKSEY0Otf3bA74Q5be5HVL9zTgo8NZYyI6TZKfAbER8z1V/t9+so72Jixu2vIr9zQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -34,11 +35,20 @@
 			</nav>
 		</header>
 	
-		<section class="first"></section>
-		<!-- <section class="second"></section> -->
-		<!-- <section class="third"></section> -->
-		<!-- <footer>Footer</footer> -->
+		<section class="banner-container">
+			<div class="feature-banner">
+				<h3 class="movie-title"></h3>
+				<p class="description"></p>
+				<div class="banner-buttons"></div>
+			</div>
+		</section>
+
+		<section id="first" class="swiper-container">
+			<div class="swiper-wrapper"></div>
+		</section>
+	
 	</div>
+
 	<script type="module" src="./js/index.js"></script>
 </body>
 </html>

@@ -1,3 +1,11 @@
+@media (max-width: 575.98px) {
+	.logo-container {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}	
+}
+
 @media (min-width: 576px) and (max-width: 767.98px) {
 	.logo {
 		width: 105px;

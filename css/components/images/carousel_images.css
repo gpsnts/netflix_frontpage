@@ -1,0 +1,4 @@
+/* A lib tem um problema ao uniformizar o tamanho das imagens, isto soluciona (embora use um id) */
+#fix-height {
+	height: auto;
+}

@@ -1,0 +1,32 @@
+@media (max-width: 576px) {
+	.banner-buttons {
+		display: flex;
+		flex-flow: row nowrap;
+		width: 100%;
+	}
+}
+
+@media (max-width: 768px) {
+	.description, .movie-title, .banner-buttons {
+		margin-left: 15px;
+	}
+	
+	.banner-container {
+		height: 55%;
+	}
+
+	.movie-title {
+		font-size: 32px;
+	}
+}
+
+@media (max-width: 800px) {
+	.description {
+		width: 90%;
+		display: -webkit-box;
+		-webkit-line-clamp: 3;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}
