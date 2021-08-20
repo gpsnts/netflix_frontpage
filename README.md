@@ -1,3 +1,3 @@
 # Netflix Clone
 
-A simple Netflix frontpage implementation using VanillaJS using the TheMovieDB API
+A simple Netflix frontpage implementation using VanillaJS and TheMovieDB API
